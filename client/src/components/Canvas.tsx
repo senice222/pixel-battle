@@ -45,8 +45,6 @@ const Canvas = observer(() => {
         }
     }, [canvasState.username]);
 
-
-
     useEffect(() => {
         const intervalId = setInterval(() => {
             if (timerFlag) {
